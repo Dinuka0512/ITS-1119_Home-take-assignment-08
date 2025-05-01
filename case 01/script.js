@@ -12,7 +12,7 @@ array.push(document.getElementById("f").innerHTML);
 //HERE PRINT THE ARRAYLIST WE HAVE CREATED
 // console.log(array);
 
-setInterval(removeLastIndex, 2000);
+setInterval(removeLastIndex, 1000);
 
 
 function removeLastIndex(){

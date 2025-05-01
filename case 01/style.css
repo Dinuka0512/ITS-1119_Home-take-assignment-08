@@ -3,17 +3,18 @@ body{
     margin: 0;
 
     height: 100vh;
+    
+    background-color: black;
+    color: white;
 }
 
 .wrapper{
     height: 100%;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    background-color: black;
-    color: white;
+    justify-self: center;
 }
 
 h2{
@@ -22,4 +23,8 @@ h2{
 
 #a{
     color: red;
+}
+
+.wrapper>div{
+    display: flex;
 }
